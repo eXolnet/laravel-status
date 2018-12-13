@@ -1,5 +1,6 @@
 {
     "name": "exolnet/laravel-status",
+    "version": "2.0.0",
     "description": "Laravel module to get the status of a web application.",
     "keywords": ["exolnet", "laravel", "status"],
     "homepage": "https://github.com/eXolnet/laravel-status",
