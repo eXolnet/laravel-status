@@ -13,6 +13,10 @@
         {
             "name": "Martin Blanchette",
             "email": "mblanchette@exolnet.com"
+        },
+        {
+            "name": "Patrick Gagnon-Renaud",
+            "email": "pgrenaud@exolnet.com"
         }
     ],
     "support": {
@@ -54,10 +58,7 @@
         "laravel": {
             "providers": [
                 "Exolnet\\Status\\StatusServiceProvider"
-            ],
-            "aliases": {
-                "Status": "Exolnet\\Status\\StatusFacade"
-            }
+            ]
         }
     }
 }

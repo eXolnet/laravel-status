@@ -1,4 +1,6 @@
-<?php namespace Exolnet\Status\Tests\Feature;
+<?php
+
+namespace Exolnet\Status\Tests\Feature;
 
 use Illuminate\Support\Facades\File;
 

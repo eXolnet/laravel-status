@@ -21,12 +21,6 @@ If you don't use package auto-discovery, add the service provider to the `provid
 Exolnet\Status\StatusServiceProvider::class
 ```
 
-And the facade to the `facades` array in `config/app.php`: 
-
-```
-'Status' => Exolnet\Status\StatusFacade::class
-```
-
 ## Usage
 
 ### Health page

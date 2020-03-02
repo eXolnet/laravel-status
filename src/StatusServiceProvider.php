@@ -1,4 +1,6 @@
-<?php namespace Exolnet\Status;
+<?php
+
+namespace Exolnet\Status;
 
 use Illuminate\Support\ServiceProvider;
 
