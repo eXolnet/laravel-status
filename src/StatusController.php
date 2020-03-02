@@ -2,6 +2,7 @@
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
@@ -36,7 +37,7 @@ class StatusController extends BaseController
      */
     public function sha()
     {
-        $file = base_path('REVISION');
+        $file = App::basePath('REVISION');
 
         if (!$this->filesystem->exists($file)) {
             throw new NotFoundHttpException;
