@@ -1,12 +1,14 @@
-<?php namespace Exolnet\Status;
+<?php
+
+namespace Exolnet\Status;
 
 use Illuminate\Filesystem\Filesystem;
-use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
-class StatusController extends BaseController
+class StatusController extends Controller
 {
     /**
      * @var \Illuminate\Filesystem\Filesystem
@@ -40,7 +42,7 @@ class StatusController extends BaseController
         $file = App::basePath('REVISION');
 
         if (!$this->filesystem->exists($file)) {
-            throw new NotFoundHttpException;
+            throw new NotFoundHttpException();
         }
 
         $revision = $this->filesystem->get($file);

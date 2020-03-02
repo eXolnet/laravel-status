@@ -1,4 +1,6 @@
-<?php namespace Exolnet\Status\Tests\Feature;
+<?php
+
+namespace Exolnet\Status\Tests\Feature;
 
 use Exolnet\Status\StatusServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
