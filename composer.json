@@ -54,10 +54,7 @@
         "laravel": {
             "providers": [
                 "Exolnet\\Status\\StatusServiceProvider"
-            ],
-            "aliases": {
-                "Status": "Exolnet\\Status\\StatusFacade"
-            }
+            ]
         }
     }
 }
