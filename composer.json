@@ -25,13 +25,13 @@
     },
     "require": {
         "php": "^7.2",
-        "illuminate/filesystem": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0",
-        "illuminate/routing": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0",
-        "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0"
+        "illuminate/filesystem": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0",
+        "illuminate/routing": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0",
+        "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
-        "orchestra/testbench" : "^3.5",
+        "orchestra/testbench" : "^3.5|^4.0|^5.0",
         "phpunit/phpunit": "~6.0",
         "squizlabs/php_codesniffer": "^3.3.2"
     },
