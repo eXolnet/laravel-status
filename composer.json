@@ -24,7 +24,7 @@
         "source": "https://github.com/eXolnet/laravel-status"
     },
     "require": {
-        "php": "^7.2",
+        "php": ">=7.2",
         "illuminate/filesystem": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0",
         "illuminate/routing": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0",
         "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0"
