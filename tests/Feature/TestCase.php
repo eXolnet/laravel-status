@@ -19,15 +19,10 @@ abstract class TestCase extends Orchestra
         ];
     }
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
         $this->app->setBasePath(dirname(dirname(__DIR__)));
-    }
-
-    public function tearDown()
-    {
-        parent::tearDown();
     }
 }
