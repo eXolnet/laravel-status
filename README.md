@@ -11,13 +11,13 @@ The eXolnet Laravel Status package extends the base features available in Larave
 
 Require this package with composer:
 
-```
-$ composer require exolnet/laravel-status
+```bash
+composer require exolnet/laravel-status
 ```
 
 If you don't use package auto-discovery, add the service provider to the `providers` array in `config/app.php`:
 
-```
+```php
 Exolnet\Status\StatusServiceProvider::class
 ```
 
@@ -35,8 +35,8 @@ To see commit SHA version, you have to access `/sha` page. Be sure you have a re
 
 To run the phpUnit tests, please use:
 
-``` bash
-$ composer test
+```bash
+composer test
 ```
 
 ## Contributing
