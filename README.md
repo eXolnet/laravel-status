@@ -1,7 +1,7 @@
 # eXolnet Laravel Status
 
 [![Latest Stable Version](https://poser.pugx.org/eXolnet/laravel-status/v/stable?format=flat-square)](https://packagist.org/packages/eXolnet/laravel-status)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Build Status](https://img.shields.io/github/workflow/status/eXolnet/laravel-status/tests?label=tests&style=flat-square)](https://github.com/eXolnet/laravel-status/actions?query=workflow%3Atests)
 [![Total Downloads](https://img.shields.io/packagist/dt/eXolnet/laravel-status.svg?style=flat-square)](https://packagist.org/packages/eXolnet/laravel-status)
 
