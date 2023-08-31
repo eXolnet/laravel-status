@@ -51,7 +51,7 @@ If you discover any security related issues, please email security@exolnet.com i
 
 - [Alexandre D'Eschambeault](https://github.com/xel1045)
 - [Martin Blanchette](https://github.com/martinblanchette)
-- [Pat Gagnon-Renaud](https://github.com/pgrenaud)
+- [Patricia Gagnon-Renaud](https://github.com/pgrenaud)
 - [All Contributors](../../contributors)
 
 ## License
