@@ -14,7 +14,7 @@ class StatusTest extends TestCase
         $response = $this->get('/health');
 
         $response->assertStatus(200);
-        $response->assertHeader('Content-Type', 'text/plain; charset=UTF-8');
+        $response->assertHeader('Content-Type', 'text/plain; charset=utf-8');
         $response->assertSeeText('OK');
     }
 
@@ -28,7 +28,7 @@ class StatusTest extends TestCase
         $response = $this->get('/sha');
 
         $response->assertStatus(200);
-        $response->assertHeader('Content-Type', 'text/plain; charset=UTF-8');
+        $response->assertHeader('Content-Type', 'text/plain; charset=utf-8');
         $response->assertSeeText('2b21eb3');
 
         File::delete('REVISION');
